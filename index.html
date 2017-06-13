@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>
+     Space shooter
+    </title>
+    <style>
+        #mycanvas{
+            border: 5px solid orange;
+            background: url("Images/bg2.png");
+            -webkit-animation: animatedBackground 20s linear infinite; 
+            background-repeat: repeat-y;
+             
+        }
+        
+        @-webkit-keyframes animatedBackground{
+            from{background-position: 0 0;}
+            to{background-position: 0 1000px ;}
+        }
+    </style>
+    <script src="phaser.js"></script>
+    <script src="script.js"></script>
+    </head>
+    <body>
+        <canvas id='mycanvas' width="800" height="600"></canvas>
+    
+       
+        <script src="script.js" type="text/javascript"></script>
+       
+    </body>
+</html>
